@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>TramChat Support</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    padding: 16px;
+                }
+                h1, h2 {
+                    color: #458343;
+                }
+                .faq-item {
+                    margin-bottom: 20px;
+                }
+            </style>
+            <link rel="icon" href="favicon.svg" type="image/x-icon">
+        </head>
+    <body>
+        <h1>TramChat Support</h1>
+        <p>Welcome to the TramChat Support Page. Here you will find answers to the most common questions we receive about our app.</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <h3>Using TramChat</h3>
+
+        <div class="faq-item">
+            <h4>How does TramChat verify my route and direction?</h4>
+            <p>TramChat uses OCR technology to read a photo of a tram stop sign, which can either be taken directly from your camera or selected from your gallery. The app recognises key information, such as the route number, direction name, and stop number, using Microsoft's Azure Computer Vision API. The recognised data is then validated against public data provided by Public Transport Victoria before being presented to users.</p>
+        </div>
+
+        <div class="faq-item">
+            <h4>Why can't the app recognise my route after reading the photo?</h4>
+            <p>
+                If TramChat is having trouble reading your photo, it could be due to one of the following reasons:<br />
+                <ol>
+                    <li>The sign in the photo is not clear, for example, if graffiti is obscuring key information.</li>
+                    <li>The photo is too dark, and the sign is not well-lit.</li>
+                    <li>Some of the key information is cropped out of the image submitted.</li>
+                </ol>
+                You can try taking another photo with better lighting or choose a different one from your phone gallery. If the issue persists, please contact us.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h4>What languages does TramChat support?</h4>
+            <p>TramChat is currently available in English and Chinese, and we plan to support more languages in the future.</p>
+        </div>
+
+        <h3>Privacy and Data Use</h3>
+
+        <div class="faq-item">
+            <h4>Does TramChat store the photos I submit?</h4>
+            <p>
+                No, TramChat does not store these images or use them for any purposes other than to check your route and direction. The images are processed by Microsoft's Azure Computer Vision API, which automatically deletes them after processing. Furthermore, Microsoft does not use your data to enhance its underlying models.<br /><br />
+                For a full overview of our privacy practices, please visit our <a href="https://eviema.github.io/tramchatdocs/privacy-policy" target="_blank">Privacy Policy</a>.
+            </p>
+        </div>
+
+        <h2>Contact Us</h2>
+        <p>If you have any further questions, please email us at <a href="mailto:squareseascent@gmail.com">squareseascent@gmail.com</a>.</p>
+    </body>
+</html>
